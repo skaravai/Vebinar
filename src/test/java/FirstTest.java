@@ -15,18 +15,12 @@ public class FirstTest {
         driver = new ChromeDriver();
     }
 
-
     @Test
     public void testOTUS(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-
         driver.get("https://otus.ru");
         System.out.println(driver.getTitle()+"=========");
 
-        System.out.println("push");
     }
-
 
     @AfterTest
     public void quit(){
