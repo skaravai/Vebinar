@@ -23,6 +23,8 @@ public class FirstTest {
 
         driver.get("https://otus.ru");
         System.out.println(driver.getTitle()+"=========");
+
+        System.out.println("push");
     }
 
 
